@@ -40,10 +40,9 @@ mercaridb
 | 1 | SELECT, WHERE, ORDER BY | "Show me all active listings under ¥5,000" |
 | 2 | Aggregate Functions | "What's the average selling price per category?" |
 | 3 | GROUP BY, HAVING | "Which sellers have made more than 10 sales?" |
-| 4 | JOINs (INNER, LEFT) | "Show every transaction with buyer and seller details" |
+| 4 | ORDER BY, LIMIT, OFFSET | "Show top 10 cheapest listings in each category" |
 | 5 | NULL handling | "Find all unverified users who have listed products" |
-| 6 | String functions | "Search listings by keyword in the title" |
-| 7 | Date functions | "How many new users signed up this month?" |
+| 6 | JOINs (INNER, LEFT) | "Show every transaction with buyer and seller details" |
 
 ### 🟡 Week 2 — Intermediate (Days 8–14)
 | Day | Topic | Business Question |
@@ -122,7 +121,7 @@ Mercari is Japan's largest C2C marketplace with over 20 million monthly active u
 
 ## 🛠️ Tech Stack
 
-- **Database:** SQLite (local) / PostgreSQL (cloud)
+- **Database:** MySQL (local)
 - **Tools:** DBeaver, psql, Jupyter Notebook (via `sqlite3` / `psycopg2`)
 - **Language:** SQL + Python for data loading
 
@@ -134,21 +133,17 @@ Mercari is Japan's largest C2C marketplace with over 20 million monthly active u
 git clone https://github.com/Prashant-4527/mercaridb-sql.git
 cd mercaridb-sql
 
-# Load the database
-python setup/seed_database.py
-
-# Start practicing
-sqlite3 mercaridb.sqlite
-```
-
+# Open any .sql file in MySQL Workbench
+# Run day1_setup.sql first to create the database
+# Then run each day's file in order
 ---
 
 ## 📈 Progress Tracker
 
-- [x] Week 1 — Foundations ✅
-- [ ] Week 2 — Intermediate 🟡
-- [ ] Week 3 — Advanced
-- [ ] Week 4 — Real-World Scenarios
+* Week 1 — Foundations 🟡 (Day 5/7 in progress)
+* Week 2 — Intermediate ⬜
+* Week 3 — Advanced ⬜
+* Week 4 — Real-World Scenarios ⬜
 
 ---
 
