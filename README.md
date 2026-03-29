@@ -122,8 +122,8 @@ Mercari is Japan's largest C2C marketplace with over 20 million monthly active u
 ## 🛠️ Tech Stack
 
 - **Database:** MySQL (local)
-- **Tools:** DBeaver, psql, Jupyter Notebook (via `sqlite3` / `psycopg2`)
-- **Language:** SQL + Python for data loading
+- **Tools:** MySQL Workbench
+- **Language:** SQL
 
 ---
 
@@ -136,6 +136,7 @@ cd mercaridb-sql
 # Open any .sql file in MySQL Workbench
 # Run day1_setup.sql first to create the database
 # Then run each day's file in order
+```
 ---
 
 ## 📈 Progress Tracker
