@@ -142,8 +142,8 @@ cd mercaridb-sql
 ## 📈 Progress Tracker
 
 * Week 1 — Foundations 🟢 (Completed)
-* Week 2 — Intermediate 🟠 (6/7)
-* Week 3 — Advanced ⬜
+* Week 2 — Intermediate 🟢 (Completed)
+* Week 3 — Advanced (1/7)
 * Week 4 — Real-World Scenarios ⬜
 
 ---
