@@ -143,7 +143,7 @@ cd mercaridb-sql
 
 * Week 1 — Foundations 🟢 (Completed)
 * Week 2 — Intermediate 🟢 (Completed)
-* Week 3 — Advanced (3/7)
+* Week 3 — Advanced (6/7)
 * Week 4 — Real-World Scenarios ⬜
 
 ---
